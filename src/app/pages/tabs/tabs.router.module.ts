@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { TabsPage } from './tabs.page';
 import { QuickplayPage } from '../quickplay/quickplay.page';
+import { ProgrammedPlayPage } from '../programmed-play/programmed-play.page';
 import { AboutPage } from '../about/about.page';
 import { HelpPage } from '../help/help.page';
 
@@ -22,14 +23,19 @@ const routes: Routes = [
         component: QuickplayPage
       },
       {
-        path: 'about',
-        outlet: 'about',
-        component: AboutPage
+        path: 'programmed-play',
+        outlet: 'programmed-play',
+        component: ProgrammedPlayPage
       },
       {
         path: 'help',
         outlet: 'help',
         component: HelpPage
+      },
+      {
+        path: 'about',
+        outlet: 'about',
+        component: AboutPage
       }
     ]
   },

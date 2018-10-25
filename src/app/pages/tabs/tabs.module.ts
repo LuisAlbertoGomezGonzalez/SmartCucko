@@ -8,6 +8,7 @@ import { TabsPageRoutingModule } from './tabs.router.module';
 
 import { TabsPage } from './tabs.page';
 import { QuickPageModule } from '../quickplay/quickplay.module';
+import { ProgrammedPlayPageModule } from '../programmed-play/programmed-play.module';
 import { HelpPageModule } from '../help/help.module';
 import { AboutPageModule } from '../about/about.module';
 
@@ -18,8 +19,9 @@ import { AboutPageModule } from '../about/about.module';
     FormsModule,
     TabsPageRoutingModule,
     QuickPageModule,
-    AboutPageModule,
-    HelpPageModule
+    ProgrammedPlayPageModule,
+    HelpPageModule,
+    AboutPageModule
   ],
   declarations: [TabsPage]
 })

@@ -1,0 +1,7 @@
+{
+  "name": "SmartCucko",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
